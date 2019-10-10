@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<!DOCTYPE galerie SYSTEM "data/galerie.dtd">
+<galerie>
+  <tableau>
+    <Titre>Persistance de la m&#xE9;moire</Titre>
+    <Date_>1931</Date_>
+    <peintre>
+      <nom>Salvador Dali</nom>
+      <ybirth>1904</ybirth>
+      <ydeath>1989</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>21.1</Longueur>
+      <Largeur>33</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Surr&#xE9;alisme</Nom_Mouvement>
+      <Description>Utilise force psychique : inconscient, reve ...</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Ter-A Vega Gyongly</Titre>
+    <Date_>1968</Date_>
+    <peintre>
+      <nom>Victor Vasar&#xE9;ly</nom>
+      <ybirth>1908</ybirth>
+      <ydeath>1997</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>80</Longueur>
+      <Largeur>80</Largeur>
+      <Technique>Acrylique sur panneau</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Art Cin&#xE9;tique</Nom_Mouvement>
+      <Description>Tr&#xE8;s reli&#xE9; &#xE0; la sculpture</Description>
+      <Siecle>XX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Lever de lune et coucher de soleil</Titre>
+    <Date_>1919</Date_>
+    <peintre>
+      <nom>Paul Klee</nom>
+      <ybirth>1879</ybirth>
+      <ydeath>1940</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>40.5</Longueur>
+      <Largeur>30.5</Largeur>
+      <Technique>Huile sur carton</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Expressionisme</Nom_Mouvement>
+      <Description>Projection subjective de la r&#xE9;alit&#xE9;</Description>
+      <Siecle>XX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Judith et Holopherne</Titre>
+    <Date_>1901</Date_>
+    <peintre>
+      <nom>Gustave Kilmt</nom>
+      <ybirth>1862</ybirth>
+      <ydeath>1918</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>84</Longueur>
+      <Largeur>42</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Art nouveau Autrichien</Nom_Mouvement>
+      <Description>Rattach&#xE9; &#xE0; l'art nouveau</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Composition avec as de trefle</Titre>
+    <Date_>1913</Date_>
+    <peintre>
+      <nom>Georges Braque</nom>
+      <ybirth>1882</ybirth>
+      <ydeath>1963</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>80</Longueur>
+      <Largeur>59</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Cubisme</Nom_Mouvement>
+      <Description>objets analys&#xE9;s, d&#xE9;compos&#xE9;s et r&#xE9;assembl&#xE9;s</Description>
+      <Siecle>XX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Nature morte aux pommes</Titre>
+    <Date_>1890</Date_>
+    <peintre>
+      <nom>Paul C&#xE9;zanne</nom>
+      <ybirth>1839</ybirth>
+      <ydeath>1906</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>65</Longueur>
+      <Largeur>80</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Impressionisme</Nom_Mouvement>
+      <Description>Mouvement d'impressions fugitives</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Le caf&#xE9; de nuit</Titre>
+    <Date_>1888</Date_>
+    <peintre>
+      <nom>Vincent Van Gogh</nom>
+      <ybirth>1853</ybirth>
+      <ydeath>1894</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>72</Longueur>
+      <Largeur>92</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Impressionisme</Nom_Mouvement>
+      <Description>Mouvement d'impressions fugitives</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Les raboteurs de parquets</Titre>
+    <Date_>1875</Date_>
+    <peintre>
+      <nom>Gustave Caillebotte</nom>
+      <ybirth>1848</ybirth>
+      <ydeath>1894</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>102</Longueur>
+      <Largeur>145.5</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Impressionisme</Nom_Mouvement>
+      <Description>Mouvement d'impressions fugitives</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Le pont de l'Europe</Titre>
+    <Date_>1877</Date_>
+    <peintre>
+      <nom>Claude Monet</nom>
+      <ybirth>1840</ybirth>
+      <ydeath>1926</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>64</Longueur>
+      <Largeur>81</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Impressionisme</Nom_Mouvement>
+      <Description>Mouvement d'impressions fugitives</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Femme &#xE0; l'enventail</Titre>
+    <Date_>1919</Date_>
+    <peintre>
+      <nom>Amedeo Modigliani</nom>
+      <ybirth>1884</ybirth>
+      <ydeath>1920</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>100</Longueur>
+      <Largeur>65</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Art Figuratif</Nom_Mouvement>
+      <Description>Representation de forme/figure</Description>
+      <Siecle>XX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Le berceau</Titre>
+    <Date_>1872</Date_>
+    <peintre>
+      <nom>Berthe Morizot</nom>
+      <ybirth>1841</ybirth>
+      <ydeath>1895</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>56</Longueur>
+      <Largeur>46</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Impressionisme</Nom_Mouvement>
+      <Description>Mouvement d'impressions fugitives</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Le moulin de la galette</Titre>
+    <Date_>1876</Date_>
+    <peintre>
+      <nom>Pierre-Auguste Renoir</nom>
+      <ybirth>1841</ybirth>
+      <ydeath>1919</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>131</Longueur>
+      <Largeur>175</Largeur>
+      <Technique>Huile sur toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Impressionisme</Nom_Mouvement>
+      <Description>Mouvement d'impressions fugitives</Description>
+      <Siecle>XIX siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>La denteli&#xE8;re</Titre>
+    <Date_>1669</Date_>
+    <peintre>
+      <nom>Johannes Vermeer</nom>
+      <ybirth>1632</ybirth>
+      <ydeath>1675</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>24</Longueur>
+      <Largeur>21</Largeur>
+      <Technique>Huile sur Toile</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Siecle d'or N&#xE9;erlandais</Nom_Mouvement>
+      <Description>Peintures d'histoire</Description>
+      <Siecle>XVI siecle</Siecle>
+    </mouvement>
+  </tableau>
+  <tableau>
+    <Titre>Le printemps</Titre>
+    <Date_>1482</Date_>
+    <peintre>
+      <nom>Sandro Botticelli</nom>
+      <ybirth>1445</ybirth>
+      <ydeath>1510</ydeath>
+    </peintre>
+    <modele>
+      <Longueur>203</Longueur>
+      <Largeur>314</Largeur>
+      <Technique>Tempera sur panneau de bois</Technique>
+    </modele>
+    <mouvement>
+      <Nom_Mouvement>Premi&#xE8;re renaissance Italienne</Nom_Mouvement>
+      <Description>Evolutions techniques lumineuses</Description>
+      <Siecle>XV siecle</Siecle>
+    </mouvement>
+  </tableau>
+</galerie>

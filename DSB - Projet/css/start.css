@@ -1,0 +1,33 @@
+body {
+  background-color: #FF7F50;
+}
+
+div.menu {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  background-color:#FFFFFF;
+  border:5px solid #9FC6FF;
+  border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div.bouton a {
+  display:block;
+  width:229px;
+  line-height:88px;
+  text-align:center;
+  background:url(bouton1.png) no-repeat;
+  color:black;
+  text-decoration:none;
+}
+
+div.bouton a:hover {
+  background:url(bouton2.png) no-repeat;
+}

@@ -1,0 +1,29 @@
+galerie {
+    text-align: center;
+}
+
+tableau{
+  display: block;
+  border:5px solid #FF7F50;
+  width: 30%;
+  margin: auto;
+}
+
+Titre, Date_ {
+  font-size : 25px;
+  font-weight : bold;
+}
+
+peintre {
+  display: block;
+}
+
+modele {
+  display: block;
+}
+
+mouvement {
+  display: block;
+}
+
+div.

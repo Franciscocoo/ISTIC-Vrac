@@ -1,0 +1,16 @@
+<!ELEMENT galerie (tableau)*>
+<!ELEMENT tableau (Titre,Date_,peintre,modele,mouvement)>
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT Date_ (#PCDATA)>
+<!ELEMENT peintre (nom,ybirth,ydeath)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ybirth (#PCDATA)>
+<!ELEMENT ydeath (#PCDATA)>
+<!ELEMENT modele (Longueur,Largeur,Technique)>
+<!ELEMENT Longueur (#PCDATA)>
+<!ELEMENT Largeur (#PCDATA)>
+<!ELEMENT Technique (#PCDATA)>
+<!ELEMENT mouvement (Nom_Mouvement,Description,Siecle)>
+<!ELEMENT Nom_Mouvement (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Siecle (#PCDATA)>
