@@ -1,0 +1,3 @@
+  PID TTY          TIME CMD
+  309 pts/0    00:00:00 ps
+27989 pts/0    00:00:00 ur1shell

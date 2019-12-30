@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.13.22" version="1.0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
+    <tool name="Constant">
+      <a name="facing" val="south"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2">
+    <tool name="Multiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+    <tool name="Demultiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+  </lib>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#HDL-IP" name="6">
+    <tool name="VHDL Entity">
+      <a name="content">--------------------------------------------------------------------------------
+-- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+library ieee;
+  use ieee.std_logic_1164.all;
+  --use ieee.numeric_std.all;
+
+entity VHDL_Component is
+  port(
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    horloge_i  : in  std_logic;                    -- input bit example
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+    max_o      : out std_logic;                    -- output bit example
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
+    );
+end VHDL_Component;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+architecture type_architecture of VHDL_Component is
+
+
+begin
+
+
+end type_architecture;
+</a>
+    </tool>
+  </lib>
+  <lib desc="#TCL" name="7">
+    <tool name="TclGeneric">
+      <a name="content">library ieee;
+use ieee.std_logic_1164.all;
+
+entity TCL_Generic is
+  port(
+    --Insert input ports below
+    horloge_i  : in  std_logic;                    -- input bit example
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
+
+	  --Insert output ports below
+    max_o      : out std_logic;                    -- output bit example
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
+  );
+end TCL_Generic;
+</a>
+    </tool>
+  </lib>
+  <lib desc="#Base" name="8">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#FSM" name="10">
+    <tool name="FSM Entity">
+      <a name="content">fsm example @[ 50 , 50 , 800 , 500 ] { in A [ 3 ] @[ 50 , 100 , 44 , 15 ] ; out
+X [ 4 ] @[ 807 , 140 , 43 , 15 ] ; codeWidth = 2 ; reset = S0 ; state S0 = "01"
+@[ 297 , 181 , 30 , 30 ] { commands @[ 246 , 173 , 50 , 40 ] { X = "0001" ; }
+transitions { S0 -&gt; S1 when default @[ 432 , 151 , 50 , 21 ] ; S0 -&gt; S3 when A
+== "000" @[ 346 , 269 , 68 , 21 ] ; } } state S1 = "10" @[ 470 , 186 , 30 , 30
+] { commands @[ 522 , 190 , 40 , 40 ] { X = "0010" ; } transitions { S1 -&gt; S2
+when default @[ 533 , 276 , 50 , 21 ] ; S1 -&gt; S0 when A == "000" @[ 399 , 230 ,
+68 , 21 ] ; } } state S2 = "00" @[ 471 , 339 , 30 , 30 ] { commands @[ 524 ,
+353 , 60 , 40 ] { X = { "00" , A [ 1 ] , "1" } ; } transitions { S2 -&gt; S3 when
+default @[ 392 , 398 , 50 , 21 ] ; S2 -&gt; S1 when A [ 2 : 1 ] == "11" @[ 557 ,
+250 , 90 , 21 ] ; } } state S3 = "11" @[ 287 , 325 , 30 , 30 ] { commands @[
+244 , 341 , 60 , 40 ] { X = "1000" ; } transitions { S3 -&gt; S0 when default @[
+248 , 278 , 50 , 21 ] ; S3 -&gt; S2 when A == "000" @[ 388 , 313 , 68 , 21 ] ; } }
+}</a>
+      <a name="label" val=""/>
+    </tool>
+  </lib>
+  <lib desc="file#CPT4BCD.circ" name="11"/>
+  <lib desc="file#DIGIT44_BCD.circ" name="12"/>
+  <main name="Watch"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+    <a name="tickmain" val="half_period"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Menu Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="Watch">
+    <a name="circuit" val="Watch"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <wire from="(130,450)" to="(320,450)"/>
+    <wire from="(450,340)" to="(510,340)"/>
+    <wire from="(130,380)" to="(130,450)"/>
+    <wire from="(320,450)" to="(500,450)"/>
+    <wire from="(460,520)" to="(630,520)"/>
+    <wire from="(840,150)" to="(840,500)"/>
+    <wire from="(120,230)" to="(120,320)"/>
+    <wire from="(500,230)" to="(500,320)"/>
+    <wire from="(910,150)" to="(910,550)"/>
+    <wire from="(320,230)" to="(320,320)"/>
+    <wire from="(80,480)" to="(110,480)"/>
+    <wire from="(480,360)" to="(510,360)"/>
+    <wire from="(300,360)" to="(330,360)"/>
+    <wire from="(670,150)" to="(670,310)"/>
+    <wire from="(650,300)" to="(720,300)"/>
+    <wire from="(500,320)" to="(510,320)"/>
+    <wire from="(500,380)" to="(510,380)"/>
+    <wire from="(320,320)" to="(330,320)"/>
+    <wire from="(320,380)" to="(330,380)"/>
+    <wire from="(110,360)" to="(110,480)"/>
+    <wire from="(650,540)" to="(960,540)"/>
+    <wire from="(500,380)" to="(500,450)"/>
+    <wire from="(320,380)" to="(320,450)"/>
+    <wire from="(110,480)" to="(300,480)"/>
+    <wire from="(300,480)" to="(480,480)"/>
+    <wire from="(960,150)" to="(960,540)"/>
+    <wire from="(650,500)" to="(840,500)"/>
+    <wire from="(460,320)" to="(460,520)"/>
+    <wire from="(80,450)" to="(130,450)"/>
+    <wire from="(720,150)" to="(720,300)"/>
+    <wire from="(110,360)" to="(140,360)"/>
+    <wire from="(110,340)" to="(140,340)"/>
+    <wire from="(790,150)" to="(790,510)"/>
+    <wire from="(650,310)" to="(670,310)"/>
+    <wire from="(280,560)" to="(630,560)"/>
+    <wire from="(260,320)" to="(280,320)"/>
+    <wire from="(120,320)" to="(140,320)"/>
+    <wire from="(450,320)" to="(460,320)"/>
+    <wire from="(280,320)" to="(280,560)"/>
+    <wire from="(130,380)" to="(140,380)"/>
+    <wire from="(650,550)" to="(910,550)"/>
+    <wire from="(300,360)" to="(300,480)"/>
+    <wire from="(260,340)" to="(330,340)"/>
+    <wire from="(650,510)" to="(790,510)"/>
+    <wire from="(480,360)" to="(480,480)"/>
+    <comp lib="0" loc="(630,560)" name="Splitter">
+      <a name="incoming" val="8"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp lib="5" loc="(830,70)" name="7-Segment Display">
+      <a name="label" val="M0"/>
+    </comp>
+    <comp lib="0" loc="(80,480)" name="Clock">
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="5" loc="(660,70)" name="7-Segment Display">
+      <a name="label" val="H1"/>
+    </comp>
+    <comp lib="0" loc="(120,230)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x59"/>
+    </comp>
+    <comp lib="0" loc="(320,230)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x59"/>
+    </comp>
+    <comp lib="0" loc="(630,520)" name="Splitter">
+      <a name="incoming" val="8"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp lib="12" loc="(450,320)" name="DIGIT44_BCD">
+      <a name="label" val="MM"/>
+    </comp>
+    <comp lib="9" loc="(780,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(710,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="5" loc="(900,70)" name="7-Segment Display">
+      <a name="label" val="S1"/>
+    </comp>
+    <comp lib="8" loc="(207,70)" name="Text">
+      <a name="text" val="TP2 montre numérique "/>
+      <a name="font" val="SansSerif plain 24"/>
+    </comp>
+    <comp lib="0" loc="(630,320)" name="Splitter">
+      <a name="incoming" val="8"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp lib="12" loc="(260,320)" name="DIGIT44_BCD">
+      <a name="label" val="SS"/>
+    </comp>
+    <comp lib="5" loc="(710,70)" name="7-Segment Display">
+      <a name="label" val="H0"/>
+    </comp>
+    <comp lib="0" loc="(80,450)" name="Pin">
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="12" loc="(630,320)" name="DIGIT44_BCD">
+      <a name="label" val="HH"/>
+    </comp>
+    <comp lib="5" loc="(950,70)" name="7-Segment Display">
+      <a name="label" val="S0"/>
+    </comp>
+    <comp lib="5" loc="(780,70)" name="7-Segment Display">
+      <a name="label" val="M1"/>
+    </comp>
+    <comp lib="9" loc="(950,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="0" loc="(500,230)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x23"/>
+    </comp>
+    <comp lib="9" loc="(660,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(830,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(900,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="0" loc="(110,340)" name="Constant"/>
+  </circuit>
+</project>

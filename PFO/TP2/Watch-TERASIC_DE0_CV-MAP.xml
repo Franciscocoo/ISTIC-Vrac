@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LogisimGoesFPGABoardMapInformation>
+<GlobalMapInformation BoardName="TERASIC_DE0_CV" ToplevelCircuitName="Watch"/>
+<MAPPEDCOMPONENT_1 Height="24" Key="PIN: /rst#Button0" LocationX="375" LocationY="362" Width="24"/>
+<MAPPEDCOMPONENT_2 Height="49" Key="SEVENSEGMENT: /H0" LocationX="192" LocationY="274" Width="28"/>
+<MAPPEDCOMPONENT_3 Height="48" Key="SEVENSEGMENT: /H1" LocationX="162" LocationY="274" Width="28"/>
+<MAPPEDCOMPONENT_4 Height="49" Key="SEVENSEGMENT: /M0" LocationX="258" LocationY="274" Width="28"/>
+<MAPPEDCOMPONENT_5 Height="49" Key="SEVENSEGMENT: /M1" LocationX="227" LocationY="274" Width="28"/>
+<MAPPEDCOMPONENT_6 Height="49" Key="SEVENSEGMENT: /S0" LocationX="322" LocationY="274" Width="28"/>
+<MAPPEDCOMPONENT_7 Height="49" Key="SEVENSEGMENT: /S1" LocationX="292" LocationY="274" Width="28"/>
+</LogisimGoesFPGABoardMapInformation>

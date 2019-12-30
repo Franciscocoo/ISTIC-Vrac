@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LogisimGoesFPGABoardMapInformation>
+<GlobalMapInformation BoardName="TERASIC_DE0_CV" ToplevelCircuitName="main"/>
+<MAPPEDCOMPONENT_1 Height="24" Key="BUTTON: /inc" LocationX="469" LocationY="362" Width="24"/>
+<MAPPEDCOMPONENT_2 Height="24" Key="BUTTON: /load" LocationX="438" LocationY="362" Width="24"/>
+<MAPPEDCOMPONENT_3 Height="24" Key="BUTTON: /rst" LocationX="406" LocationY="362" Width="24"/>
+<MAPPEDCOMPONENT_4 Height="29" Key="DIPSWITCH: /DIN#sw_1" LocationX="340" LocationY="355" Width="14"/>
+<MAPPEDCOMPONENT_5 Height="29" Key="DIPSWITCH: /DIN#sw_2" LocationX="320" LocationY="355" Width="14"/>
+<MAPPEDCOMPONENT_6 Height="29" Key="DIPSWITCH: /DIN#sw_3" LocationX="301" LocationY="355" Width="14"/>
+<MAPPEDCOMPONENT_7 Height="29" Key="DIPSWITCH: /DIN#sw_4" LocationX="281" LocationY="355" Width="14"/>
+<MAPPEDCOMPONENT_8 Height="11" Key="LED: /LED0" LocationX="344" LocationY="333" Width="9"/>
+<MAPPEDCOMPONENT_9 Height="11" Key="LED: /LED1" LocationX="324" LocationY="333" Width="9"/>
+<MAPPEDCOMPONENT_a Height="11" Key="LED: /LED2" LocationX="304" LocationY="333" Width="9"/>
+<MAPPEDCOMPONENT_b Height="11" Key="LED: /LED3" LocationX="284" LocationY="333" Width="9"/>
+<MAPPEDCOMPONENT_c Height="49" Key="SEVENSEGMENT: /L_7_Segment_Display_1" LocationX="322" LocationY="274" Width="28"/>
+</LogisimGoesFPGABoardMapInformation>
